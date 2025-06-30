@@ -1,10 +1,6 @@
----
-title: GameLauncher
----
-
+# **GameLauncher**
 Лаунчер для игр
-
-[image:./README.png:::0,0,100,100:59::793px:798px]
+   <img src="https://github.com/user-attachments/assets/28cf9780-6475-488a-bf14-43707c067947" alt="Описание" width="50%" height="50%">
 
 Возможности:
 
@@ -22,22 +18,14 @@ title: GameLauncher
 
 1. Ищем кнопку "Add games" и указываем способ добавления
 
-   [image:./README-2.png:::0,0,100,100:65:square,80.7868,3.3033,17.333,19.2192,,top-left:791px:794px]
+   <img src="https://github.com/user-attachments/assets/0077fd1e-0a4a-49db-b0c2-b354591cd29d" alt="Описание" width="50%" height="50%">
 
-2. Затем выбираем папку с играми/файл игры
+3. Затем выбираем папку с играми/файл игры
 
-   [image:./README-3.png:::0,0,100,100:67::942px:589px]
+   <img src="https://github.com/user-attachments/assets/2331e679-9efd-4288-866a-5ed6a73e82b8" alt="Описание" width="50%" height="50%">
 
-3. При добавлении из папки указываем то, что нужно добавить
+6. При добавлении из папки указываем то, что нужно добавить
 
-   [image:./README-4.png:::0,0,100,100:47::522px:548px]
-
-![image](https://github.com/user-attachments/assets/d26e2982-ab29-40b7-ac99-29d526f9348e)
+   <img src="https://github.com/user-attachments/assets/d26e2982-ab29-40b7-ac99-29d526f9348e" alt="Описание" width="50%" height="50%">
 
 Всё готово!
-
-
-
-![image](https://github.com/user-attachments/assets/bba142cd-f097-4635-a549-a990648667d1)
-
-
