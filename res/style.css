@@ -1,0 +1,83 @@
+* {
+    -fx-bcolor: rgb(150, 150, 250); /* Background color */
+    -fx-bcolor-hover: rgb(100, 100, 200); /* Background color when cursor hovered */
+    -fx-buttoncolor: rgb(100, 100, 100); /* Color for buttons */
+    -fx-buttoncolor-hover: rgb(50, 50, 50); /* Color for when cursor hovered over the button */
+    -fx-playbuttoncolor: rgb(0, 180, 20); /* Color for button "Play" */
+    -fx-playbuttoncolor-hover: rgb(0, 150, 0); /* Color for when cursor hovered over the button "Play" */
+    -fx-textcolor: rgb(255, 255, 255); /* Color of text */
+    -fx-textcolor-hover: rgb(0, 0, 0); /* Color for text  */
+    -fx-titlecolor: rgb(50, 50, 200); /* Color of title, game name, game path and settings text */
+}
+
+.root{
+    -fx-background-color: -fx-bcolor;
+}
+.scrollPane{
+    -fx-border-color: black;
+    -fx-border-width: 1px 0 1px 0;
+    -fx-background: -fx-bcolor;
+}.scroll-bar:vertical{
+    -fx-background-color:transparent;
+    -fx-border-width: 0 0 0 1px;
+}.thumb {
+    -fx-background-color: rgb(200, 200, 200);
+}.track {
+    -fx-background-color: -fx-bcolor;
+}.increment-button, .decrement-button {
+    -fx-background-color: -fx-bcolor;
+    -fx-border-color: -fx-bcolor;
+}.scroll-bar > .increment-button > .increment-arrow, .scroll-bar > .decrement-button > .decrement-arrow {
+    -fx-background-color: black;
+}
+.menu-button > .label {
+    -fx-text-fill: -fx-textcolor;
+}
+
+.game {
+    -fx-border-color: black;
+    -fx-border-width: 0 0 1px 0;
+}
+
+.top-panel {
+    -fx-background-color: -fx-bcolor;
+    -fx-background-radius: 0;
+    -fx-pref-width: 35px;
+    -fx-pref-height: 25px;
+    -fx-font-weight: Bold;
+}.top-panel:hover {
+    -fx-background-color: -fx-bcolor-hover;
+    -fx-text-fill: -fx-textcolor-hover;
+}
+
+.close-button:hover{
+    -fx-background-color: red;
+}
+
+.bbutton {
+    -fx-text-fill: -fx-textcolor;
+    -fx-background-color: -fx-buttoncolor;
+}.bbutton:hover {
+    -fx-background-color: -fx-buttoncolor-hover;
+}
+
+.play-button {
+    -fx-background-color: -fx-playbuttoncolor;
+    -fx-text-fill: white;
+}.play-button:hover {
+     -fx-background-color: -fx-playbuttoncolor-hover;
+}
+
+.deletebutton {
+    -fx-background-color: rgb(220, 0, 0);
+    -fx-text-fill: -fx-textcolor;
+}.deletebutton:hover {
+    -fx-background-color: rgb(180, 0, 0);
+}
+
+
+
+.field{
+    -fx-text-fill: black;
+    -fx-background-color: rgb(230, 230, 230);
+}
